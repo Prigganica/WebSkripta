@@ -4,7 +4,7 @@ CREATE TABLE `zaposleni` (
   `grad` varchar(30) NOT NULL,
   `godiste` int(11) NOT NULL,
   `zanimanje` varchar(45) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+)
 
 INSERT INTO `zaposleni` (`id`, `ime`, `grad`, `godiste`, `zanimanje`) VALUES
 (1, 'Marko', 'Kotor', 1990, 'Kuvar'),
