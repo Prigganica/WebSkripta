@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <p class="naslov">Izaberi artikal: </p>
+   <form method="post" action="index2.php">
+       <table>
+           <tr>
+               <th class="siva_boja">Vrsta artikla</th>
+               <td>
+                    <select name="vrsta">
+                      <option class="siva_boja">Kafa</option>
+                      <option>Secer</option>
+                      <option class="siva_boja">Kokos</option>
+                      <option>Mlijeko</option>
+                      <option class="siva_boja">Jaja</option>
+                   </select>
+               </td> 
+               <th class="siva_boja">Kolicina</th>
+               <td>
+                   <input type="text" name="kolicina" placeholder="Kolicina">
+               </td>
+           </tr>
+           <tr>
+              <td></td>
+              <td></td>
+               <th class="siva_boja">Dobavljac</th>
+               <td>
+                   <input class="siva_boja" type="text" name="dobavljac" placeholder="Dobavljac">
+               </td>
+           </tr>
+           <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+               <td>
+                   <input type="submit" name="posalji" value="Posalji">
+               </td>
+           </tr>
+       </table>
+   </form>
+   
+   
+    
+</body>
+</html>
