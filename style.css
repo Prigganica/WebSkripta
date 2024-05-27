@@ -1,0 +1,23 @@
+form{
+    border: black solid 2pt;
+    width: 500px;
+}
+
+.naslov{
+    font-size: 20pt;
+    font-weight: bold;
+    border: black dashed 1pt;
+    width: 250px;
+}
+
+.siva_boja{
+    background-color: grey;
+}
+
+.okvir{
+    border: black solid 1pt;
+}
+
+::placeholder{
+    color: black;
+}
